@@ -5,6 +5,7 @@ from datetime import datetime
 from uuid import uuid
 import json
 
+
 class BaseModel:
     """it's a class BaseModel that's the super class for all
     the classes in this project.
