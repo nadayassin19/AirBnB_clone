@@ -9,12 +9,9 @@ class Amenity(BaseModel):
 
     Args:
         BaseModel (class): the super class that class amenity inherits from.
+
+    Attributes"
+        name (str): the amenity name
     """
 
-    def __init__(self, name=""):
-        """initialize new amenity
-
-        Args:
-            name (str, optional): amenity name. Defaults to "".
-        """
-        self.name = name
+    name = ""

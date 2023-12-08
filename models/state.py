@@ -9,12 +9,9 @@ class State(BaseModel):
 
     Args:
         BaseModel (class): the super class that class state inherits from.
+
+    Attributes:
+        name (str): state name.
     """
 
-    def __init__(self, name=""):
-        """initialize new state
-
-        Args:
-            name (str, optional): state name Defaults to "".
-        """
-        self.name = name
+    name = ""
