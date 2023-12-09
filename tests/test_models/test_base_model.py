@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""It's the test module of base model
+"""A module of testing BaseModel class
 """
 
 
