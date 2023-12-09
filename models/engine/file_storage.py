@@ -34,7 +34,8 @@ class FileStorage:
         FileStorage.__objects["{}.{}".format(ocname, obj.id)] = obj
 
     def save(self):
-        """A method that serializes __objects to the JSON file (path: __file_path)
+        """A method that serializes __objects to
+        the JSON file (path: __file_path)
         """
         dict = {}
         for key, value in FileStorage.__objects.items():
@@ -48,7 +49,7 @@ class FileStorage:
         """
         dict = {'BaseModel': BaseModel, 'User': User, 'State': State,
                 'Place': Place, 'City': City,
-                'Amenity': Amenity,'Review': Review}
+                'Amenity': Amenity, 'Review': Review}
 
         if os.path.exists(FileStorage.__file_path) is True:
             with open(FileStorage.__file_path, "r", encoding="utf-8") as f:
