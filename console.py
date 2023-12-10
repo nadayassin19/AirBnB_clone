@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 """A module that contains the entry point of the command interpreter
 """
-import cmd
-import json
-import shlex
 from models import storage
 from models.base_model import BaseModel
 from models.user import User
@@ -13,7 +10,9 @@ from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
 from uuid import uuid
-
+import cmd
+import json
+import shlex
 
 class HBNBCommand(cmd.Cmd):
     """A class that defines the command interpreter
