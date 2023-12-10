@@ -30,5 +30,6 @@ class TestAmenity(unittest.TestCase):
         self.assertIsInstance(self.my_amenity.created_at, datetime.datetime)
         self.assertIsInstance(self.my_amenity.updated_at, datetime.datetime)
 
+
 if __name__ == '__main__':
     unittest.main()
