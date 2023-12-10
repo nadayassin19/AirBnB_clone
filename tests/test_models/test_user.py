@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """A module of unitest testing User class
 """
-import models
-import os
 import unittest
+import models
 from models.user import User
+import os
 from datetime import datetime
 from time import sleep
 
