@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 """A module of testing unitest State class
 """
-#!/usr/bin/python3
-"""
-Unittest for amenity.py
-"""
 import unittest
 from models.state import State
 import datetime

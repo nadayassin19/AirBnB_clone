@@ -12,7 +12,8 @@ class TestPlace(unittest.TestCase):
     my_place = Place()
 
     def test_class_exists(self):
-        self.assertEqual(str(type(self.my_place)), "<class 'models.place.Place'>")
+        self.assertEqual(str(type(self.my_place)),
+                         "<class 'models.place.Place'>")
 
     def test_user_inheritance(self):
         self.assertIsInstance(self.my_place, Place)
