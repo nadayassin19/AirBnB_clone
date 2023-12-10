@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""A module of testing User class
+"""A module of unitest testing User class
 """
+import models
+import os
+import unittest
 from models.user import User
 from datetime import datetime
 from time import sleep
-import os
-import models
-import unittest
 
 
 class TestUser_instantiation(unittest.TestCase):

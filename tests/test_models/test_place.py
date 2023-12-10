@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-"""A module of testing Place class
+"""A module of unitest testing Place class
 """
