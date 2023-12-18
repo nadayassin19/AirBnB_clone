@@ -49,3 +49,23 @@
 .amenities {
     border-left: 1px solid #DDDDDD;
 }
+
+ul.popover {
+    display: none;
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    top:0;
+    margin-top: 70px;
+    position: absolute;
+}
+
+ul.popover ul li h2 {
+    font-size: 16px;
+}
+
+.filters div:hover ul.popover {
+    display: block;
+}
